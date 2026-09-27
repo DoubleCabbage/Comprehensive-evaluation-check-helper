@@ -1,0 +1,11 @@
+{
+  "text_cleanup": {
+    "trim_whitespace": true,
+    "collapse_internal_whitespace": true,
+    "normalize_full_width_punctuation": true
+  },
+  "role_aliases": {},
+  "category_aliases": {},
+  "notes": "拿到真实 Excel 后复制为 normalization_rules.json，再根据数据审核别名。"
+}
+

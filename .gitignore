@@ -1,0 +1,27 @@
+.venv/
+.conda-env/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local review rules and user workbooks must not be published.
+configs/batch_review_settings.json
+configs/normalization_rules.json
+configs/retrieval_cases.csv
+*.xlsx
+*.xlsm
+*.xls
+
+data/raw/*
+!data/raw/README.md
+data/interim/*
+!data/interim/README.md
+data/processed/*
+!data/processed/README.md
+
+models/*
+!models/README.md
